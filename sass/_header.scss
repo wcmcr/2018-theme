@@ -1,0 +1,34 @@
+.custom-header {
+	display: flex;
+	justify-content: center;
+	align-items: top;
+	height: 500px;
+}
+
+.site .site-header {
+	background-image: url('https://2018.manchester.wordcamp.org/files/2018/06/WCMCR1.png');
+	background-size: 100% auto;
+	background-position: center center;
+}
+
+.custom-header {
+	padding-bottom: 20px;
+}
+
+.custom-header:after {
+	content: ' ';
+	position: absolute;
+	z-index: -1;
+	background: rgba(0,0,0,0.3);
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+	.custom-header {
+		padding-top: 10px;
+	}
+}
