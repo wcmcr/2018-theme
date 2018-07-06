@@ -44,5 +44,17 @@ h6{
 }
 
 a{
-	color: $dark-blue;
+	color: $red;
+	&:hover{
+		color: $dark-blue;
+	}
+}
+
+button, input[type=button], input[type=reset], input[type=submit]{
+	background-color: $red;
+	color: #fff;
+	border: none;
+	border-radius: 0;
+	padding: 15px 20px;
+	font-size: 1.2rem;
 }
