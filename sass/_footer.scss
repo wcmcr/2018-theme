@@ -1,16 +1,43 @@
 .site-footer{
+	background-image: url('https://2018.manchester.wordcamp.org/files/2018/07/halftone.png'), url('https://2018.manchester.wordcamp.org/files/2018/07/halftone-2.png');
+	background-repeat: repeat-x;
+	background-position: top left, bottom left;
+	background-size: 80%;
 	background-color: $dark-blue;
 	color: #fff;
 	margin-top: 40px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 8%;
+	padding-bottom: 8%;
+	border-bottom: 50px solid $black;
 	a{
 		color: #fff;
+	}
+	.widget{
+		border: 2px solid #fff;
+		position: relative;
+		padding: 20px;
+		&:before{
+			content: '';
+			position: absolute;
+			border: 4px solid $black;
+			top: -8px;
+			bottom: -8px;
+			left: -8px;
+			right: -8px;
+			z-index: 1;
+		}
+		.textwidget, form, ul{
+			position: relative;
+			z-index: 2;
+		}
+	}
+	.widget h2{
+		color: #000;
 	}
 	.site-info{
 		margin-top: 20px;
 		padding-top: 20px;
-		border-top: 2px solid $red;
+		border-top: 2px solid $black;
 		a{
 			display: block;
 			text-align: center;
@@ -26,9 +53,10 @@
 		#footer-widget-1{
 			@media (min-width: 769px){
 				display: flex;
+				justify-content: space-between;
 				section{
 					padding: 20px;
-					flex-basis: 50%;
+					flex-basis: 48%;
 				}
 			}
 		}
