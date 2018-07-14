@@ -1,5 +1,6 @@
 .custom-header {
 	line-height: 0;
+	position: relative;
 	img{
 		width: 100%;
 		height: auto;
@@ -8,8 +9,23 @@
 
 .site-branding {
 	text-indent: -999%;
-	height: 0;
+	// height: 0;
 	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	p.site-title{
+		display: block;
+		height: 100%;
+		margin: 0;
+		a{
+			display: block;
+			width: 100%;
+			height: 100%;
+		}
+	}
 }
 
 
