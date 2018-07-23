@@ -39,7 +39,7 @@
 	}
 }
 
-#secondary{
+#secondary-sidebar{
 	margin-top: 6px;
 	.widget{
 		border: 2px solid $light-blue;
@@ -65,6 +65,17 @@
 		}
 	}
 }
+
+#primary-sidebar{
+	text-align: center;
+	p{
+		margin: 0;
+	}
+	h3{
+		margin-top: 0;
+	}
+}
+
 
 article{
 	border: 5px solid $black;
