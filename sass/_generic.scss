@@ -1,7 +1,7 @@
 .site-content,
 .site-footer .site-info,
 .site-footer #footer-widgets{
-	max-width: 1200px;
+	max-width: 1600px;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 20px;
@@ -72,5 +72,21 @@ article{
 	margin-top: 1.5em;
 	@media (min-width: 500px){
 		padding: 1em 2em;
+	}
+}
+
+table.tix_tickets_table{
+	td, th{
+		padding: 20px;
+		
+	}
+	td:not(.tix-column-description){
+		text-align: center;
+	}
+}
+
+table.tix_tickets_table.tix-attendee-form{
+	td{
+		text-align: left;
 	}
 }
