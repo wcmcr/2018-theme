@@ -101,3 +101,21 @@ table.tix_tickets_table.tix-attendee-form{
 		text-align: left;
 	}
 }
+
+table.table-striped{
+	text-align: center;
+
+	tr:nth-child(2n){
+		background-color: lighten($light-blue, 45%);
+	}
+	tr > td:first-child{
+		text-align: left;
+	}
+	td{
+		padding: 5px 8px;
+	}
+	th{
+		font-weight: bold;
+		padding-bottom: 20px;
+	}
+}
