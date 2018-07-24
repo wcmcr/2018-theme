@@ -12,7 +12,7 @@
 	a{
 		color: #fff;
 	}
-	.widget{
+	#footer-widget-1 .widget{
 		border: 2px solid #fff;
 		position: relative;
 		padding: 20px;
@@ -42,6 +42,12 @@
 			display: block;
 			text-align: center;
 			text-decoration: none;
+		}
+	}
+	#footer-widget-5 .widget{
+		text-align: center;
+		img{
+			vertical-align: middle;
 		}
 	}
 	#footer-widgets{

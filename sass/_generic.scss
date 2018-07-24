@@ -94,6 +94,9 @@ table.tix_tickets_table{
 	td:not(.tix-column-description){
 		text-align: center;
 	}
+	tr:nth-child(2n){
+		background-color: lighten($light-blue, 45%);
+	}
 }
 
 table.tix_tickets_table.tix-attendee-form{
