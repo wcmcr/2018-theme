@@ -1,6 +1,6 @@
 /* Navigation */
 .menu {
-	border-top: 3px solid $red;
+	// border-top: 3px solid $red;
 	text-align: center;
 }
 
@@ -87,6 +87,40 @@
 	left: 0%;
 	@media (min-width: 600px){
 		left: 100%;
+	}
+}
+
+#menu-social-media-links{
+	li{
+		display: inline-block;
+		a{
+			width: 30px;
+			height: 30px;
+			text-decoration: none;
+			overflow: hidden;
+			display: block;
+			margin: 0 5px;
+		}
+		a:before{
+			font-family: 'dashicons';
+			width: 30px;
+			height: 30px;
+			display: block;
+			font-size: 1.6rem;
+			line-height: 1;
+		}
+		&.twitter a:before{
+			content: "\f301";
+		}
+		&.facebook a:before{
+			content: "\f304";
+		}
+		&.instagram a:before{
+			content: ' ';
+			background-image: url('https://2018.manchester.wordcamp.org/files/2018/07/instagram.png');
+			background-size: 80%;
+			background-repeat: no-repeat;
+		}
 	}
 }
 
