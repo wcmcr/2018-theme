@@ -37,9 +37,7 @@
 		font-size: 1.2rem;
 		color: $dark-blue;
 		border-bottom: 1px solid $light-blue;
-		#wcb_sponsors-2 &{
-			text-align: center;
-		}
+
 	}
 	h4.sponsor-level-title{
 		text-align: center;
@@ -54,6 +52,10 @@
 			border: none;
 		}
 	}
+}
+
+.widget#wcb_sponsors-2 h2{
+	text-align: center;
 }
 
 
