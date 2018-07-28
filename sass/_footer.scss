@@ -56,6 +56,9 @@
 			margin: 0;
 			padding: 0;
 		}
+		h2{
+			border-bottom: none;
+		}
 		#footer-widget-1{
 			@media (min-width: 769px){
 				display: flex;
