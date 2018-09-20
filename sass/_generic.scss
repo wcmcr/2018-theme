@@ -143,3 +143,53 @@ table.table-striped{
 		padding-bottom: 20px;
 	}
 }
+
+table {
+	width: 100%;
+	max-width: 100%;
+	line-height: 1.5;
+	margin: 0 0 1rem;
+	border: 1px dashed #fafafa;
+}
+
+.wcpt-schedule {
+	margin: 1.125rem 0;
+}
+
+.wcpt-schedule th, .wcpt-schedule td {
+	padding: .75rem;
+}
+
+.wcpt-schedule th {
+	background: #fafafa;
+	border: 1px solid white;
+}
+
+.wcpt-schedule .wcpt-time {
+	background: #fafafa;
+	border: 1px solid white;
+}
+
+.wcpt-schedule .wcpt-session-type-session {
+	background: #fafafa;
+	border: 1px solid white;
+}
+
+.wcpt-schedule .global-session .wcpt-time {
+	background: #fafafa;
+}
+
+.wcpt-schedule .global-session .wcpt-session-type-custom {
+	background: #fafafa;
+	border: 1px solid white;
+}
+
+.wcpt-schedule .wcpt-session-title {
+	display: block;
+	line-height: 1.125;
+}
+
+.wcpt-schedule .wcpt-session-speakers {
+	font-size: .75rem;
+	line-height: 1.125;
+}
