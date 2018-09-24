@@ -55,10 +55,11 @@ h6{
 	font-size: $font-size * 0.85;
 }
 
-a{
-	color: $light-blue;
+a:link,
+a:visited{
+	color: $dark-blue;
 	&:hover{
-		color: $dark-blue;
+		color: $light-blue;
 	}
 }
 
