@@ -31,6 +31,7 @@
 	}
 	&:hover{
 		background-color: darken($dark-blue, 10%);
+		color: #fff;
 	}
 }
 
@@ -63,7 +64,7 @@
 		display: block;
 	}
 	@media (min-width: 600px){
-		background-color: $light-blue;
+		background-color: $dark-blue;
 		position: absolute;
 		float: left;
 		padding-left: 0px;

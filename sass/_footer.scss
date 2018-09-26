@@ -11,6 +11,9 @@
 	border-bottom: 50px solid $black;
 	a{
 		color: #fff;
+		&:hover{
+			color: #000000;
+		}
 	}
 	#footer-widget-1 .widget{
 		border: 2px solid #fff;
