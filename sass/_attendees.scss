@@ -1,0 +1,21 @@
+#tix-attendees{
+	ul.tix-attendee-list.tix-columns-2{
+		li{
+			.avatar{
+				float: none;
+				margin-bottom: 5px;
+			}
+			.tix-attendee-name{
+				float: none;
+			}
+			&:after {
+			    content: "";
+			    display: table;
+			    clear: both;
+			  }
+			 &:nth-child(2n+1){
+			 	clear: left;
+			 }
+		}
+	}
+}
