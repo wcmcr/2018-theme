@@ -3,12 +3,19 @@
 		margin: 0;
 		padding: 0;
 		li{
+			height: auto;
+			text-align: center;
 			.avatar{
 				float: none;
 				margin-bottom: 5px;
 			}
 			.tix-attendee-name{
 				float: none;
+				width: auto;
+				height: auto;
+				span{
+					display: block;
+				}
 			}
 			&:after {
 			    content: "";
